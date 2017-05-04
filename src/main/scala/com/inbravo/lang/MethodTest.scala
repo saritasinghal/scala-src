@@ -11,7 +11,7 @@ object MethodTest extends App {
   print("Hello")
 
   /* A method with a name, without any parameter passed, with curly brackets ('{}'); which prints something */
-  def printHelloWithCurlyBrackets = { print("Hello") }
+  def printHelloWithCurlyBrackets = { println("printHelloWithCurlyBrackets") }
 
   /* A method with a name, without any parameter passed, without curly brackets ('{}'); which prints something */
   def printHello = print("Hello")
@@ -32,7 +32,7 @@ object MethodTest extends App {
   def returnFloatWithoutTypeDefinition = 1.0F
 
   /* Run all methods */
-  print(printHelloWithCurlyBrackets)
+  printHelloWithCurlyBrackets
   print(printHello)
   print(returnInt)
   print(returnIntWithoutTypeDefinition)

@@ -12,14 +12,18 @@ object OperatorsAreMethods {
 
     val a = "a"
     val b = "b"
+    var x=1
+    var y=2
 
     /* '+' is nothing but just a method implemented in String class */
     println(a.+(b))
+     println(x.+(y))
 
     /* a + b == a.+(b) */
     println(a + b)
+    println(x + y)
 
-    println(OperatorsAreMethods.+)
+    OperatorsAreMethods.+
     println(OperatorsAreMethods.++)
 
     /* Both calls to same method */

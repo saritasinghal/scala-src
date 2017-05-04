@@ -8,6 +8,7 @@ package com.inbravo.lang
 object ValuesTest extends App {
 
   /* Different Scala types, initialized with their maximum value and with their types (NAME:TYPE e.g. val maxByteValue: Byte) */
+ 
   val maxByteValue: Byte = Byte.MaxValue
   val maxCharValue: Char = Char.MaxValue
   val maxShortValue: Short = Short.MaxValue
@@ -18,6 +19,7 @@ object ValuesTest extends App {
 
   /* Print values */
   println("Byte Max Value: " + maxByteValue)
+
 
   /* Trick is used to convert a Char to yeild numeric value */
   println("Char Max Value: " + (maxCharValue + 0))
