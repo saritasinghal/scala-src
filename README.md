@@ -1,8 +1,11 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/507e7b65e6794888b4a89a6682db0287)](https://www.codacy.com/app/inbravo/scala-src?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=inbravo/scala-src&amp;utm_campaign=Badge_Grade)
+
 ### Some useful Scala examples
 
 #### Language constructs
 -  [Hello World with main method][HelloWorld.md]
 -  [Hello World without main method][HelloWorldWithoutMain.md]
+-  [Purpose of trait, class and Object keywords in Scala][ClassObjectTest.md]
 -  [Java 'Object' is equivalent to Scala 'AnyRef'][VarArgsTest.md]
 -  [Various Scala types][ValuesTest.md]
 -  [How methods or definitions are created using 'def'][MethodTest.md]
@@ -111,6 +114,7 @@
 [ValuesTest.md]: https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ValuesTest.scala
 [VarAndValTest.md]: https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/VarAndValTest.scala
 [MethodTest.md]: https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/MethodTest.scala
+[ClassObjectTest.md]: https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ClassObjectTest.scala
 [ArrayBufferTest.md]: https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ArrayBufferTest.scala
 [VarArgsTest.md]: https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/VarArgsTest.scala
 [ProcedureTest.md]: https://github.com/inbravo/scala-src/blob/master/src/main/scala/com/inbravo/lang/ProcedureTest.scala
